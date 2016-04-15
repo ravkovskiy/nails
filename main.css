@@ -1,3 +1,5 @@
+/* header styles start */
+
 .header_topline {
     background-color: #43484c;
     color: white;
@@ -11,6 +13,14 @@
     border: 1px solid #fff;
     width: 200px;
     height: 80px;
+}
+.registr {
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+}
+.registr i {
+    font-size: 20px;
 }
 .soc_buttons {
     float: right;
@@ -48,3 +58,5 @@
 .menu_buttons span:hover a {
     color: #eee;
 }
+
+/* header styles end*/
