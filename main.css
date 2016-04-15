@@ -8,8 +8,14 @@
 
 .logo {
     display: inline-block;
-    border: 1px solid #ccc;
     width: 200px;
+    height: 80px;
+    background-image: url("image/logo.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.logo img {
+     width: 200px;
     height: 80px;
 }
 .registr {
@@ -17,19 +23,19 @@
     float: right;
     margin-right: 30px;
     margin-top: 12px;
-}
-.registr:hover {
     cursor: pointer;
 }
 .registr i {
     font-size: 20px;
+    color: #999;
 }
 
 .soc_buttons {
     float: right;
     min-height: 48px;
     background-color: #a33;
-    border-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
     padding-top: 9px;
 }
 .soc_buttons a:first-child {
@@ -55,7 +61,8 @@
     padding-top: 3px;
 }
 .soc_buttons i:hover {
-    background-color: #faa;
+    background-color: #338ab7;
+    color: #fff;
 }
 .clear_both {
     clear: both;
@@ -67,23 +74,21 @@
     margin-right: 25px;
     margin-bottom: 20px;
 }
-.menu_buttons span {
-    padding: 10px 10px 10px 10px;
+
+.menu_buttons a {
+    padding: 10px;
     margin-left: 10px;
-}
-.menu_buttons span a {
     color: #888;
     text-decoration: none;
-}
-.menu_buttons span:first-child {
-    border-bottom: 1px solid #ccc;
-}
-.menu_buttons span:hover {
-    border-bottom: 1px solid #ccc;
     cursor: pointer;
 }
-.menu_buttons span:hover a {
-    color: #ccc;
+.menu_buttons a.selected {
+    border-bottom: 1px solid #faa;
 }
+.menu_buttons a:hover {
+    border-bottom: 1px solid #faa;
+    color: #bbb;
+}
+
 
 /* header styles end*/
