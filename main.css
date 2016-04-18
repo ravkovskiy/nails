@@ -65,9 +65,17 @@
     vertical-align: middle;
     padding-top: 3px;
 }
+.soc_buttons a:last-child i {
+    background-color: white;;
+    color: #ef7f11;
+}
 .soc_buttons i:hover {
     background-color: #338ab7;
     color: #fff;
+}
+.soc_buttons a:last-child i:hover {
+    background-color: #ef7f11;;
+    color: white;
 }
 .clear_both {
     clear: both;
