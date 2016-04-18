@@ -1,4 +1,8 @@
-<header class="top_header">
+import {Component} from 'angular2/core';
+@Component({
+    selector: 'template-header',
+    template: `
+    <header class="top_header">
     <div class="header_topline">
         <div class="container">
             <div class="col-md-12">
@@ -51,3 +55,9 @@
         </div>
     </div>
 </header>
+    `
+})
+export class TemplateHeader { }
+
+
+
