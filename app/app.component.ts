@@ -1,15 +1,14 @@
 import {Component} from 'angular2/core';
-import {TemplateHeader} from './template/template-header';
-import {TemplateSlider} from './template/template-slider';
-import {TemplateCarousel} from './template/template-carousel';
+import {HeaderComponent} from './header/header.component';
+import {CarouselComponent} from './carousel/carousel.component';
+
 
 @Component({
     selector: 'my-app',
-    directives: [TemplateHeader, TemplateSlider,TemplateCarousel],
+    directives: [HeaderComponent, CarouselComponent],
     template: `
-        <template-header></template-header>
-        <template-slider></template-slider>
-        <template-carousel></template-carousel>
+        <header_component></header_component>
+        <carousel_component></carousel_component>
     `
 })
 export class AppComponent { }
