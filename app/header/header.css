@@ -101,10 +101,6 @@
     border-bottom: 1px solid #faa;
     color: #bbb;
 }
-.menu_buttons a:focus {
-    border-bottom: 1px solid #faa;
-    background-color: white !important;
-}
 
 .menu_buttons_select {
     font-size: 20px;
