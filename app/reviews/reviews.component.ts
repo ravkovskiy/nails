@@ -1,10 +1,10 @@
 import {Component} from "angular2/core";
 @Component({
-    selector: 'price_component',
+    selector: 'reviews_component',
     template: `
         <div class='price'>
-            <span>Price</span>
+            <span>Reviews</span>
         </div>
     `
 })
-export class PriceComponent{}
+export class ReviewsComponent{}
