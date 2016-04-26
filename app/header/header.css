@@ -71,6 +71,10 @@
     background-color: #338ab7;
     color: #fff;
 }
+.menu_buttons a:focus {
+    border-bottom: 1px solid #faa;
+    background-color: white !important;
+}
 .soc_buttons a:last-child i:hover {
     background-color: #ef7f11;;
     color: white;
@@ -93,9 +97,6 @@
 }
 .menu_buttons li a:hover {
     background-color: white;
-}
-.menu_buttons a.selected {
-    border-bottom: 1px solid #faa;
 }
 .menu_buttons a:hover {
     border-bottom: 1px solid #faa;

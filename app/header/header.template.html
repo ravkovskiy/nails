@@ -36,8 +36,8 @@
                        
                         <div class="collapse navbar-collapse menu_buttons" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
-                                <li><a href="#" class="selected"><span>Главная</span></a></li>
-                                <li><a href="#"><span>Услуги и Цены</span></a></li>
+                                <li><a [routerLink]="['Carousel']"><span>Главная</span></a></li>
+                                <li><a [routerLink]="['Price']"><span>Услуги и Цены</span></a></li>
                                 <li><a href="#"><span>Акции</span></a></li>
                                 <li><a href="#"><span>Портфолио</span></a></li>
                                 <li><a href="#"><span>Отзывы</span></a></li>
@@ -51,4 +51,5 @@
         </div>
     </div>
 </header>
+<router-outlet></router-outlet> 
     
