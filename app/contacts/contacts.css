@@ -16,11 +16,6 @@ iframe{
     width: 100%;
     height: 400px;
 }
-footer {
-    background-color: #244;
-    color: white;
-    padding: 15px 50px;
-}
 @media (max-width: 768px) {
     .price_detail {
         margin-right: 0;
