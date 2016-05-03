@@ -1,23 +1,23 @@
 .contacts {
     margin-bottom: 20px;
 }
-.row {
+.contacts .row {
     margin-right: 0;
 }
-.row div[class^='col'] {
+.contacts .row div[class^='col'] {
     padding: 0;
 }
-.price_detail {
+.contacts .price_detail {
     background-color: #344;;
     height: 400px;
     margin-right: 4%;
 }
-iframe{
+.contacts iframe{
     width: 100%;
     height: 400px;
 }
 @media (max-width: 768px) {
-    .price_detail {
+    .contacts .price_detail {
         margin-right: 0;
     }
 }
