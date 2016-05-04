@@ -1,10 +1,10 @@
 .header_topline {
     background-color: white;
-    min-height: 165px;
+    min-height: 130px;
     border-bottom: 1px solid #bbb;
 }
 
-.logo {
+.header .logo {
     display: inline-block;
     width: 200px;
     height: 80px;
@@ -13,24 +13,25 @@
     background-position: 50% 50%;
     position: relative;
     top: -8px;
+    margin-top: -20px;
 }
-.logo img {
+.header .logo img {
      width: 200px;
     height: 80px;
 }
-.registr {
+.header .registr {
     display: inline-block;
     float: right;
     margin-right: 30px;
     margin-top: 12px;
     cursor: pointer;
 }
-.registr i {
+.header .registr i {
     font-size: 20px;
     color: #999;
 }
 
-.soc_buttons {
+.header .soc_buttons {
     float: right;
     min-height: 48px;
     background-color: #a33;
@@ -38,22 +39,22 @@
     border-bottom-right-radius: 4px;
     padding-top: 9px;
 }
-.soc_buttons a {
+.header .soc_buttons a {
     text-decoration: none;
 }
-.soc_buttons a:first-child {
+.header .soc_buttons a:first-child {
     margin-left: 10px;
 }
-.soc_buttons a:nth-child(2) {
+.header .soc_buttons a:nth-child(2) {
     margin-left: 3px;
 }
-.soc_buttons a:nth-child(3) {
+.header .soc_buttons a:nth-child(3) {
     margin-left: 3px;
 }
-.soc_buttons a:last-child {
+.header .soc_buttons a:last-child {
     margin-right: 10px;
 }
-.soc_buttons i {
+.header .soc_buttons i {
     width: 30px;
     height: 30px;
     font-size: 22px;
@@ -63,65 +64,65 @@
     vertical-align: middle;
     padding-top: 3px;
 }
-.soc_buttons a:last-child i {
+.header .soc_buttons a:last-child i {
     background-color: white;;
     color: #ef7f11;
 }
-.soc_buttons i:hover {
+.header .soc_buttons i:hover {
     background-color: #338ab7;
     color: #fff;
 }
-.menu_buttons a:focus {
+.header .menu_buttons a:focus {
     border-bottom: 1px solid #faa;
     background-color: white !important;
 }
-.soc_buttons a:last-child i:hover {
+.header .soc_buttons a:last-child i:hover {
     background-color: #ef7f11;;
     color: white;
 }
-.clear_both {
+.header .clear_both {
     clear: both;
 }
-.menu_buttons {
+.header .menu_buttons {
     float: right;
     font-size: 17px;
-    padding-top: 35px;
+    padding-top: 25px;
     margin-right: 8px;
 }
 
-.menu_buttons li a {
+.header .menu_buttons li a {
     padding: 12px;
     margin-left: 8px;
     color: #888;
     border-bottom: 1px solid white;
 }
-.menu_buttons li a:hover {
+.header .menu_buttons li a:hover {
     background-color: white;
 }
-.menu_buttons a:hover {
+.header .menu_buttons a:hover {
     border-bottom: 1px solid #faa;
     color: #bbb;
 }
 
-.menu_buttons_select {
+.header .menu_buttons_select {
     font-size: 20px;
     border: 1px solid #ccc;
     color: #666;
 }
-.menu_buttons_select:hover {
+.header .menu_buttons_select:hover {
     background-color: #f3f3f3;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-    .menu_buttons {
+    .header .menu_buttons {
         padding-top: 0px;
     }
-    .menu_buttons li a {
+    .header .menu_buttons li a {
         padding: 6px 12px;
     }
 }
 @media (max-width: 768px) {
-    .menu_buttons {
+    .header .menu_buttons {
         padding-top: 0;
     }
 }
