@@ -6,3 +6,10 @@
 .main .modal-link {
 	cursor: pointer;
 }
+
+		
+@media (min-width: 768px) {
+    .modal-content {
+		margin-top: 120px;
+	}
+}
