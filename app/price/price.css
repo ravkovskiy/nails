@@ -1,6 +1,6 @@
 .price {
 	width: 100%;
-	background-image: url(../../image/kot1.jpeg);
+	background-image: url(../../image/dog.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	padding-top: 30px;
@@ -15,4 +15,8 @@
 	float: right;
 	margin-top: -10px;
 	color: #160;
+}
+.price .thumbnail {
+	background-color: #698;
+	border: 2px solid #9cb;
 }
