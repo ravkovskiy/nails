@@ -1,18 +1,18 @@
-.panel.panel-default {
-    width: 75%;
-    margin: 0 auto;
+.price {
+	width: 100%;
+	background-image: url(../../image/kot1.jpeg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding-top: 30px;
 }
-.panel.panel-default img {
-    width: 100%;
+.price .clear {
+	clear: both;
 }
-.panel.panel-default a {
-    display: block;
-    padding: 15px;
+.price .float-left {
+	float: left;
 }
-.panel.panel-default a:hover {
-    background-color: #396;
-    text-decoration: none;
-}
-.panel-heading {
-    padding: 0;
+.price .float-right {
+	float: right;
+	margin-top: -10px;
+	color: #160;
 }
