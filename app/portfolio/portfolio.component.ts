@@ -1,10 +1,6 @@
 import {Component} from "angular2/core";
 @Component({
     selector: 'portfolio_component',
-    template: `
-        <div class='price'>
-            <span>Portfolio</span>
-        </div>
-    `
+    templateUrl: "app/portfolio/portfolio.template.html",
 })
 export class PortfolioComponent{}
