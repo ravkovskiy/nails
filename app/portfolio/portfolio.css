@@ -1,3 +1,10 @@
 .portfolio .row {
     padding: 15px 60px;
+    margin: 0;
+}
+.portfolio .modal-link {
+    cursor: pointer;
+}
+.portfolio .modal-content img {
+    width: 100%;
 }
