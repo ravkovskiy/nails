@@ -26,6 +26,9 @@
     margin-top: 12px;
     cursor: pointer;
 }
+.header .registr a {
+    padding-bottom: 7px;
+}
 .header .registr i {
     font-size: 20px;
     color: #999;
@@ -72,7 +75,7 @@
     background-color: #338ab7;
     color: #fff;
 }
-.header .menu_buttons a:focus {
+.header a.router-link-active {
     border-bottom: 1px solid #faa;
     background-color: white !important;
 }
@@ -94,7 +97,7 @@
     padding: 12px;
     margin-left: 8px;
     color: #888;
-    border-bottom: 1px solid white;
+    padding-bottom: 7px;
 }
 .header .menu_buttons li a:hover {
     background-color: white;

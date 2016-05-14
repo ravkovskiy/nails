@@ -3,6 +3,6 @@ import {CarouselComponent} from "../carousel/carousel.component";
 @Component({
     selector: 'main_component',
     directives: [CarouselComponent],
-    templateUrl: "app/main/main.template.html",
+    templateUrl: "app/main-page/main.template.html",
 })
 export class MainComponent{}
