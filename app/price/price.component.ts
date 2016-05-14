@@ -6,6 +6,6 @@ import {PriceService} from "../price/price.service";
 })
 export class PriceComponent{
     constructor(public priceService:PriceService) {
-     
+           
     }
 }
