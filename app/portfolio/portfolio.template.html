@@ -1,65 +1,13 @@
 <div class="portfolio">
+    
     <div class="row">
-    <div class="col-lg-3 col-sm-6">
-        <a class="thumbnail modal-link" data-toggle="modal" data-target="#myModal">
-        <img src="image/kot3.jpg" alt="...">
-        </a>
-    </div>
-    <div class="col-lg-3 col-sm-6">
-        <a class="thumbnail modal-link" data-toggle="modal" data-target="#myModal">
-        <img src="image/kot3.jpg" alt="...">
-        </a>
-    </div>
-    <div class="col-lg-3 col-sm-6">
-        <a class="thumbnail modal-link" data-toggle="modal" data-target="#myModal">
-        <img src="image/kot3.jpg" alt="...">
-        </a>
-    </div>
-    <div class="col-lg-3 col-sm-6">
-        <a class="thumbnail modal-link" data-toggle="modal" data-target="#myModal">
-        <img src="image/kot3.jpg" alt="...">
-        </a>
-    </div>
-    <div class="col-lg-3 col-sm-6">
-        <a class="thumbnail modal-link" data-toggle="modal" data-target="#myModal">
-        <img src="image/kot3.jpg" alt="...">
-        </a>
-    </div>
-    <div class="col-lg-3 col-sm-6">
-        <a class="thumbnail modal-link" data-toggle="modal" data-target="#myModal">
-        <img src="image/kot3.jpg" alt="...">
-        </a>
-    </div>
-    <div class="col-lg-3 col-sm-6">
-        <a class="thumbnail modal-link" data-toggle="modal" data-target="#myModal">
-        <img src="image/kot3.jpg" alt="...">
-        </a>
-    </div>
-    <div class="col-lg-3 col-sm-6">
-        <a class="thumbnail modal-link" data-toggle="modal" data-target="#myModal">
-        <img src="image/kot3.jpg" alt="...">
-        </a>
-    </div>
-    <div class="col-lg-3 col-sm-6">
-        <a class="thumbnail modal-link" data-toggle="modal" data-target="#myModal">
-        <img src="image/kot3.jpg" alt="...">
-        </a>
-    </div>
-    <div class="col-lg-3 col-sm-6">
-        <a class="thumbnail modal-link" data-toggle="modal" data-target="#myModal">
-        <img src="image/kot3.jpg" alt="...">
-        </a>
-    </div>
-    <div class="col-lg-3 col-sm-6">
-        <a class="thumbnail modal-link" data-toggle="modal" data-target="#myModal">
-        <img src="image/kot3.jpg" alt="...">
-        </a>
-    </div>
-    <div class="col-lg-3 col-sm-6">
-        <a class="thumbnail modal-link" data-toggle="modal" data-target="#myModal">
-        <img src="image/kot3.jpg" alt="...">
-        </a>
-    </div>
+        
+        <div *ngFor="#portfolio of portfolioService.portfolioList" class="col-lg-3 col-sm-6">
+            <a class="thumbnail modal-link" data-toggle="modal" data-target="#myModal">
+            <img src="image/{{portfolio.image}}" alt="{{portfolio.alt}}">
+            </a>
+        </div>
+    
     </div>
 
 
@@ -96,4 +44,5 @@
             </div>
         </div>
     </div>
+    
 </div>
