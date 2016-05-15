@@ -8,3 +8,16 @@
 .portfolio .modal-content img {
     width: 100%;
 }
+.portfolio .portfolio-control-left {
+    width: 50%;
+    float: left;
+    padding-left: 10%;
+}
+.portfolio .portfolio-control-right {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.portfolio .clear-both {
+    clear: both;
+}
