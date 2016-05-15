@@ -6,6 +6,10 @@ import {PortfolioService} from "../portfolio/portfolio.service";
 })
 export class PortfolioComponent{
     constructor(public portfolioService:PortfolioService) {
-           
+    }
+    //need change start value portfolioItemImage!!!!!!!!!!!
+    portfolioItemImage:string = "kot1.jpeg";
+    onClick(item) {
+        this.portfolioItemImage=item.image;
     }
 }
