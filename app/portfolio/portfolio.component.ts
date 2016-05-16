@@ -7,9 +7,31 @@ import {PortfolioService} from "../portfolio/portfolio.service";
 export class PortfolioComponent{
     constructor(public portfolioService:PortfolioService) {
     }
-    //need change start value portfolioItemImage!!!!!!!!!!!
-    portfolioItemImage:string = "kot1.jpeg";
-    onClick(item) {
-        this.portfolioItemImage=item.image;
+    //need change start value portfolioItem!!!!!!!!!!!
+    portfolioItem = this.portfolioService.portfolioList[0];
+    onClickPortfolioItem(clickItem) {
+        this.portfolioItem=clickItem;
+    }
+    onClickPrevPortfolioItem() {
+        var lengthPortfolio = this.portfolioService.portfolioList.length;
+        var positionPortfolioItemClick = this.portfolioService.portfolioList.indexOf(this.portfolioItem);
+        switch(positionPortfolioItemClick) {
+            case 0:
+                this.portfolioItem = this.portfolioService.portfolioList[lengthPortfolio - 1];
+                break;
+            default: 
+                this.portfolioItem = this.portfolioService.portfolioList[positionPortfolioItemClick - 1];
+        }
+    }
+    onClickNextPortfolioItem() {
+        var lengthPortfolio = this.portfolioService.portfolioList.length;
+        var positionPortfolioItemClick = this.portfolioService.portfolioList.indexOf(this.portfolioItem);
+        switch(positionPortfolioItemClick) {
+            case lengthPortfolio - 1:
+                this.portfolioItem = this.portfolioService.portfolioList[0];
+                break;
+            default: 
+                this.portfolioItem = this.portfolioService.portfolioList[positionPortfolioItemClick + 1];
+        }
     }
 }

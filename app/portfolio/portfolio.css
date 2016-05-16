@@ -8,16 +8,24 @@
 .portfolio .modal-content img {
     width: 100%;
 }
-.portfolio .portfolio-control-left {
-    width: 50%;
-    float: left;
-    padding-left: 10%;
-}
-.portfolio .portfolio-control-right {
-    width: 50%;
-    float: right;
-    text-align: right;
-}
+
 .portfolio .clear-both {
     clear: both;
 }
+.portfolio .carousel-control {
+    cursor: pointer;
+}
+.portfolio .modal-content img {
+    cursor: pointer;
+}
+.portfolio .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+    top: 5%;
+    left: 26%;
+    font-size: 16px;
+}
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 70%;
+    }
+}
+    
