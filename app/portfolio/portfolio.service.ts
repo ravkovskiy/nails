@@ -1,7 +1,7 @@
 export class PortfolioService {
     portfolioList = [
         {
-            image: 'kot2.jpeg',
+            image: 'kot1.jpeg',
             alt: '...',
         },
         {
@@ -9,7 +9,7 @@ export class PortfolioService {
             alt: '...',
         },
         {
-            image: 'kot2.jpeg',
+            image: 'kot3.jpg',
             alt: '...',
         },
         {
@@ -33,19 +33,19 @@ export class PortfolioService {
             alt: '...',
         },
         {
-            image: 'kot2.jpeg',
-            alt: '...',
-        },
-        {
-            image: 'kot2.jpeg',
-            alt: '...',
-        },
-        {
-            image: 'kot2.jpeg',
-            alt: '...',
-        },
-        {
             image: 'kot1.jpeg',
+            alt: '...',
+        },
+        {
+            image: 'kot2.jpeg',
+            alt: '...',
+        },
+        {
+            image: 'kot3.jpg',
+            alt: '...',
+        },
+        {
+            image: 'kot2.jpeg',
             alt: '...', 
         }
     ];

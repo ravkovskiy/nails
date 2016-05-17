@@ -29,7 +29,9 @@
     }
 }
 .portfolio .fa-times {
-    margin-top: 10%;
-    margin-left: 65%;
+    position: absolute;
+    top: 6%;
+    right: 26%;
+    margin-top: -10px;
 }
     
