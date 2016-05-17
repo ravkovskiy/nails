@@ -9,6 +9,7 @@ export class PortfolioComponent{
         
     }
     //need change start value portfolioItem!!!!!!!!!!!
+    
     portfolioItem = this.portfolioService.portfolioList[0];
     onClickPortfolioItem(clickItem) {
         this.portfolioItem=clickItem;

@@ -19,7 +19,7 @@
 .portfolio .modal-content img {
     cursor: pointer;
 }
-.portfolio .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+.portfolio .carousel-control .icon-prev, .portfolio .carousel-control .glyphicon-chevron-left {
     top: 6%;
     left: 26%;
     font-size: 16px;
