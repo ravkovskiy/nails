@@ -17,7 +17,8 @@ export class PortfolioComponent{
         var clientWidthBrowser = document.documentElement.clientWidth;
         closeModal.style.width=clientWidthBrowser*0.15+(innerWidthBrowser-clientWidthBrowser)+'px';
     }
-    onClickModalPortfolioItem(action) {
+    onClickModalPortfolioItem(event, action) {
+        if(event.which != 1) return;
         var lengthPortfolio = this.portfolioService.portfolioList.length;
         var positionPortfolioItemClick = this.portfolioService.portfolioList.indexOf(this.portfolioItem);
         switch(action) {

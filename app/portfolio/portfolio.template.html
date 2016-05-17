@@ -12,23 +12,20 @@
 
     <div class="modal" id="portfolioCarousel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
-         
-            <div class="modal-content">
-               <img (mousedown)="onClickModalPortfolioItem('Next')" src="image/{{portfolioItem.image}}">  
-            </div>
-         
+                <div class="modal-content">
+                <img (mousedown)="onClickModalPortfolioItem($event, 'Next')" src="image/{{portfolioItem.image}}">  
+                </div>
         </div>
-        
         <!-- Controls -->
-        <a (mousedown)="onClickModalPortfolioItem('Prev')" class="left carousel-control">
+        <a (mousedown)="onClickModalPortfolioItem($event, 'Prev')" class="left carousel-control">
             <span class="glyphicon glyphicon-chevron-left"></span>
         </a>  
         <a class="right carousel-control" data-dismiss="modal">
             <i class="fa fa-times" aria-hidden="true"></i>
         </a>
-    
+        <div class="background-modal-window" data-dismiss="modal"></div>
     </div>
     
     
-    
+    <div></div>
 </div>
