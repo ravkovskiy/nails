@@ -10,20 +10,22 @@
     
     </div>
 
-
     <div class="modal" id="portfolioCarousel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
          
             <div class="modal-content">
-               <img (click)="onClickNextPortfolioItem()" src="image/{{portfolioItem.image}}">  
+               <img (mousedown)="onClickModalPortfolioItem('Next')" src="image/{{portfolioItem.image}}">  
             </div>
          
         </div>
         
         <!-- Controls -->
-        <a (click)="onClickPrevPortfolioItem()" class="left carousel-control" data-slide="prev">
+        <a (mousedown)="onClickModalPortfolioItem('Prev')" class="left carousel-control">
             <span class="glyphicon glyphicon-chevron-left"></span>
         </a>  
+        <a class="right carousel-control" data-dismiss="modal">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </a>
     
     </div>
     
