@@ -16,7 +16,7 @@ export class PortfolioComponent{
         var closeModal=document.getElementsByClassName('carousel-control')[1];
         var innerWidthBrowser = window.innerWidth;
         var clientWidthBrowser = document.documentElement.clientWidth;
-        closeModal.style.width=clientWidthBrowser*0.15+(innerWidthBrowser-clientWidthBrowser)+'px';
+        closeModal.style.width=innerWidthBrowser*0.15+(innerWidthBrowser-clientWidthBrowser)+'px';
     }
     onClickModalPortfolioItem(event, action) {
         if(event.which != 1) return;

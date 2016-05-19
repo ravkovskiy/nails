@@ -25,23 +25,5 @@
         </a>
         <div class="background-modal-window" data-dismiss="modal"></div>
     </div>
-    
-   
-   
-   <div *ngFor="#portfolioYear of portfolioService.portfolioCatalogDates" class="year">
-       <div *ngFor="#portfolioMonth of portfolioYear.months" class="month">
-           <div class="row">
-        
-                <div *ngFor="#portfolioItem of portfolioMonth" class="col-lg-3 col-sm-6">
-                    <a (click)="onClickPortfolioItem(portfolioItem)" class="thumbnail modal-link" data-toggle="modal" data-target="#portfolioCarousel">
-                    <img src="image/{{portfolioItem.image}}" alt="{{portfolioItem.alt}}">
-                    </a>
-                </div>
-    
-           </div>
-       </div>
-   </div>
-   
-   
    
 </div>
